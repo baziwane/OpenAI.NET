@@ -39,10 +39,10 @@ var githubPipeline = new GithubPipeline
                         DotNetVersion = "7.0.201"
                     }
                 },
-               /* new RestoreTask
+                new RestoreTask
                 {
                     Name = "Restoring .NET Packages"
-                },*/
+                },
                 new DotNetBuildTask
                 {
                     Name = "Building Solution"
