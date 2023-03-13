@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAI.NET.Infrastructure.B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAI.NET", "OpenAI.NET\OpenAI.NET.csproj", "{532502CE-2EE8-42F5-9D77-F0DF77684D7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAI.NET.Tests.Acceptance", "OpenAI.NET.Tests.Acceptance\OpenAI.NET.Tests.Acceptance.csproj", "{A5E56CDF-0CD8-49A6-925B-B1BE9CC10062}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{532502CE-2EE8-42F5-9D77-F0DF77684D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{532502CE-2EE8-42F5-9D77-F0DF77684D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{532502CE-2EE8-42F5-9D77-F0DF77684D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E56CDF-0CD8-49A6-925B-B1BE9CC10062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E56CDF-0CD8-49A6-925B-B1BE9CC10062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E56CDF-0CD8-49A6-925B-B1BE9CC10062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E56CDF-0CD8-49A6-925B-B1BE9CC10062}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
