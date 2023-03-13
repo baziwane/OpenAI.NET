@@ -58,5 +58,5 @@ var githubPipeline = new GithubPipeline
 
 adotNetClient.SerializeAndWriteToFile(
     adoPipeline: githubPipeline, 
-    path: "../../.github/workflows/dotnet.yml"
+    path: "../.github/workflows/dotnet.yml"
 );
