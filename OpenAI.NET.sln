@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAI.NET.Tests.Unit", "OpenAI.NET.Tests.Unit\OpenAI.NET.Tests.Unit.csproj", "{37EE5D83-AF35-46E7-A47C-5F4D899A8A3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAI.NET.Infrastructure.Build", "OpenAI.NET.Infrastructure.Build\OpenAI.NET.Infrastructure.Build.csproj", "{A8AE03FC-AEF1-41A6-84F7-2EA81DFE81A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAI.NET", "OpenAI.NET\OpenAI.NET.csproj", "{532502CE-2EE8-42F5-9D77-F0DF77684D7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37EE5D83-AF35-46E7-A47C-5F4D899A8A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EE5D83-AF35-46E7-A47C-5F4D899A8A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EE5D83-AF35-46E7-A47C-5F4D899A8A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EE5D83-AF35-46E7-A47C-5F4D899A8A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8AE03FC-AEF1-41A6-84F7-2EA81DFE81A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8AE03FC-AEF1-41A6-84F7-2EA81DFE81A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8AE03FC-AEF1-41A6-84F7-2EA81DFE81A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8AE03FC-AEF1-41A6-84F7-2EA81DFE81A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532502CE-2EE8-42F5-9D77-F0DF77684D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532502CE-2EE8-42F5-9D77-F0DF77684D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532502CE-2EE8-42F5-9D77-F0DF77684D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532502CE-2EE8-42F5-9D77-F0DF77684D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
